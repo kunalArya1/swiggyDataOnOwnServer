@@ -12,7 +12,7 @@ const router = Router();
 router.route("/").get(serverHealth);
 router.route("/api/headerItem").get(headerItem);
 router.route("/api/resItem").get(RestutantItem);
-router.route("/get/resMenu").get(restrauntMenu);
-router.route("/get/resMenu/:resid").get(RestrauntMenuDetails);
+router.route("/api/resMenu").get(restrauntMenu);
+router.route("/api/resMenu/:resid").get(RestrauntMenuDetails);
 
 export default router;
